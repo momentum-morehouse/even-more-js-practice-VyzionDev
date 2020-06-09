@@ -24,11 +24,13 @@ product(4, 689)
 // call your function on this array of numbers [4, 37, 18, 29, 52, 103, 22]
 function evens (numbers) {
   for (num of numbers) {
-    if (num % 2 == 0 ) {
+    if (num % 2 === 0 ) {
      numbers.pop(num)
     }
   }
+  console.log(numbers)
   return numbers
+  
 }
 let evenArray = [4, 37, 18, 29, 52, 103, 22]
 evens(evenArray)
@@ -51,7 +53,7 @@ pineapple("pineapple")
 // call your function on this array ["basin", "pit", "cheese", "bun", "river"]
 function shortWords(words) {
   for (word of words){
-    if (word.length == 5) {
+    if (word.length <= 3) {
      words.push(word)
     }
   }
@@ -59,4 +61,4 @@ function shortWords(words) {
   return words
 }
 let arrayWords = ["basin", "pit", "cheese", "bun", "river"]
-function(arrayWords)
+pineapple(arrayWords)
