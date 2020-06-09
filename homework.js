@@ -24,14 +24,14 @@ product(4, 689)
 // call your function on this array of numbers [4, 37, 18, 29, 52, 103, 22]
 function evens (numbers) {
   for (num of numbers) {
-    if (num % 2 =0 ) {
+    if (num % 2 == 0 ) {
      numbers.pop(num)
     }
   }
   return numbers
 }
-
-evens([4, 37, 18, 29, 52, 103, 22])
+let evenArray = [4, 37, 18, 29, 52, 103, 22]
+evens(evenArray)
 //Problem 3
 // write a function called five that takes a word and prints it in the console
 // five times
@@ -58,4 +58,5 @@ function shortWords(words) {
   console.log(words)
   return words
 }
-function(words)
+let arrayWords = ["basin", "pit", "cheese", "bun", "river"]
+function(arrayWords)
