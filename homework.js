@@ -39,14 +39,12 @@ evens(evenArray)
 // five times
 // call your function on the word "pineapple" to test it
 function pineapple (word) {
-  console.log(word)
-  console.log(word)
-  console.log(word)
-  console.log(word)
-  console.log(word)
-}
-
-pineapple("pineapple")
+    for (let i = 0; i <= 4; i++) {
+     console.log(word)
+    }
+   }
+   
+   pineapple("pineapple")
 //Problem 4
 // write a function called shortWords that takes an array of words and then
 // returns a new array with only the words that are 3 letters long or less
