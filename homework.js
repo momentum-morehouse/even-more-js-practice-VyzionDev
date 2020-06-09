@@ -52,7 +52,7 @@ pineapple("pineapple")
 function shortWords(words) {
   for (word of words){
     if (word.length == 5) {
-     words.pop(word)
+     words.push(word)
     }
   }
   console.log(words)
